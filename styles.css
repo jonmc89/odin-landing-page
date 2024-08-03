@@ -1,0 +1,86 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "roboto", Arial, Helvetica, sans-serif;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 15px;
+  background-color: #1f2937;
+  color: white;
+}
+
+.page_header{
+  margin-left: 170px;
+}
+
+.links a{
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: color .2s ease-in;
+  cursor: pointer;
+}
+
+.links a:hover{
+  color: #3882f6;
+}
+
+.links a:active{
+  color: coral;
+}
+
+.hero_container{
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+}
+
+.hero_message{
+  width: 400px;
+}
+
+.hero_message h1{
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero_message p{
+  color: #c4c4c4;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.hero_message button{
+  font-size: 18px;
+  padding: 10px;
+  width: 150px;
+  border-radius: 15px;
+  background-color: #3882f6;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  box-sizing: none;
+  transition: background-color 0.25s ease-in;
+}
+
+.hero_message button:hover{
+  background-color: coral;
+}
+
+.hero_container img{
+  height: auto;
+  width: 400px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 15px;
+}
