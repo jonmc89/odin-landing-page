@@ -14,6 +14,10 @@ header{
   color: white;
 }
 
+header h2{
+  font-size: 24px;
+}
+
 .page_header{
   margin-left: 170px;
 }
@@ -83,4 +87,55 @@ header{
   border: 2px solid #fff;
   border-radius: 10px;
   padding: 15px;
+}
+
+.information{
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.information h2{
+  margin: 30px 0;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.cards_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  margin: 0 10px;
+  transition: .25s ease-in;
+}
+
+.cards_container figcaption{
+  text-align: center;
+  color: #686868;
+}
+
+.offers{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offer_cards{
+  height: 250px;
+  width: 200px;
+  padding: 10px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+
+}
+
+.cards_container:hover{
+  transform: scale(1.1);
+}
+
+.offer_cards img{
+  width: 180px;
+  height: 200px;
 }
