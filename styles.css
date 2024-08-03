@@ -167,6 +167,7 @@ header h2{
   justify-content: center;
   align-items: center;
   height: 200px;
+  margin: 50px;
 }
 
 .call_to_action_container{
@@ -199,4 +200,13 @@ header h2{
 
 .call_to_action_container button:hover{
   background-color: coral;
+}
+
+footer{
+  background-color: #1f2937;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
 }
