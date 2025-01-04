@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+}
+
+.hero_section, .info_section, header{
+    background-color: #1F2937;
+    color: #fff;
+}
+
+/* Header Section */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.header_logo{
+    font-size: 24px;
+
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+}
+
+.nav_links{
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 25px;
+}
+
+/* Hero Section */
+
